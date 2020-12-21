@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './pig.png';
 import './App.css';
 import StockGraph from './stockgraph'
 function App() {
