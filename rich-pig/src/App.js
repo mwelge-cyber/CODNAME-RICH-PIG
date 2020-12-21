@@ -1,22 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import StockGraph from './stockgraph'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is Richpig
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <StockGraph />
       </header>
     </div>
   );
